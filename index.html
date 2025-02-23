@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/main.css">
+    <title>Cat Day</title>
+</head>
+<body>
+    <section class="hero"  id="catinfo">
+        <div>
+            <h1>Starptautiskā kaķu diena 2025</h1>
+            <p>Šeit varat lasīt par kaķu dienu un uzzināt pāris faktus.</p>
+        </div>
+    </section>
+    <nav>
+        <img src="images/logo.png" class="logo">
+        <ul>
+            <li><a href="#catinfo">Info</a></li>
+            <li><a href="#factt">Kaķa fakts</a></li>
+            <li><a href="#catchatt">CatChat</a></li>
+            <li><a href="#contacts">Kontakti</a></li>
+        </ul>
+    </nav>
+    <section class="info">
+        <h2>Par kaķu dienu:</h2>
+        <p>Starptautiskā kaķu diena tiek atzīmēta 8. augustā un tika izveidota 2002. gadā pēc Starptautiskā dzīvnieku aizsardzības fonda (IFAW) iniciatīvas. Šī diena ir veltīta kaķiem – vieniem no vismīlētākajiem un populārākajiem mājdzīvniekiem pasaulē.<br>
+
+            Šī svētku mērķis ir pievērst uzmanību kaķu aprūpei, veselībai un labklājībai, kā arī atgādināt par klaiņojošo dzīvnieku problēmu. Šajā dienā tiek rīkotas labdarības akcijas, izglītojoši pasākumi un kampaņas par kaķu tiesību aizsardzību.<br>
+            
+            Starptautiskā kaķu diena ir lieliska iespēja veltīt papildu uzmanību savam murrājošajam draugam, iepriecināt viņu ar kārumiem, jaunu rotaļlietu vai vienkārši pavadīt kopā vairāk laika.</p>
+    <div id="factt"></div>
+    </section>
+    
+    <div class="cont">
+        <section class="fact-text">
+            <h2>Ja vēlaties uzzināt faktu par kaķi un redzēt foto, noklikšķiniet <button id="openButton">atvērt</button></h2>
+
+        </section>
+        
+        <section>
+            <div class="cat-image" id="catImageContainer">
+                <h2>Random kaķis:</h2>
+                <img id="catImage" style="display: none;">
+            </div>
+        </section>
+    </div>
+    <section class="cat-fact">
+        <h2>Fakts:</h2>
+        <div id="fact" style="display: none;"></div>
+        <div id="catchatt"></div>
+    </section>
+
+    <section id="catChat">
+        <p class="chattext">Šis ir maģisks kaķu čats! Šeit tu vari sarunāties ar kaķi un saņemt atbildes.</p>
+        <h2>CatChat</h2>
+        <div id="catChatBox"></div>
+        <input type="text" id="catQuestion" placeholder="Uzdod jautājumu kaķim...">
+        <button class="enter" id="askCatButton">Enter</button>
+    <div id="contacts"></div>
+    </section>
+    
+    
+    <section class="contacts" id="contacts">
+        <h2>Sazinieties ar mums</h2>
+        <p>Ja jums ir jautājumi, sazinieties ar mums!</p>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p><strong>Adrese:</strong> Rīga, Latvija</p>
+                <p><strong>Telefons:</strong> +371 123 4567</p>
+                <p><strong>E-pasts:</strong> info@catday.lv</p>
+            </div>
+            
+            <form class="contact-form">
+                <input type="text" placeholder="Jūsu vārds">
+                <input type="text" placeholder="Jūsu e-pasts" >
+                <input type="text" placeholder="Jūsu ziņa">
+                <button type="submit">Sūtīt ziņu</button>
+            </form>
+        </div>
+    </section>
+    
+    
+    <footer>
+        <div class="footer-content">
+            <p>Maksims Gnedovs</p>
+        </div>
+    </footer>
+    <script src="JS/main.js"></script>
+</body>
+</html>
