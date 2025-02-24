@@ -67,7 +67,16 @@ html {
 }
 
 
+.soc-link{
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+}
 
+.soc-link a{
+    text-decoration: none;
+    color: white;
+}
 
 footer {
     background: linear-gradient(90deg, #4b2c20, #ab7f68);
