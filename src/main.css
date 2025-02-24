@@ -1,10 +1,10 @@
 body{
     display: flex;
     flex-direction: column;
-    min-height: 327vh;
+    min-height: 365vh;
     margin: 0;
     padding: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://illustrators.ru/uploads/illustration/image/1562681/%D0%9C%D0%B0%D0%B4%D1%80%D0%B8%D0%B4_%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD_%D0%9C%D0%BE%D0%BD%D1%82%D0%B0%D0%B6%D0%BD%D0%B0%D1%8F_%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C_1_%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://illustrators.ru/uploads/illustration/image/1288326/%D0%91%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9-3__%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD_.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ab7f68;
+    color: #8f9db1;
     transform: scale(1.1);
 }
 
@@ -79,7 +79,7 @@ html {
 }
 
 footer {
-    background: linear-gradient(90deg, #4b2c20, #ab7f68);
+    background: linear-gradient(90deg, #494f57, #1E3A5F);
     color: white;
     text-align: center;
     padding: 20px 0;
@@ -95,7 +95,7 @@ button{
     font-size: 20px;
     border-style: none;
     border-radius: 10px;
-    background-color: #ab7f68;
+    background-color: #335787a6;
     color: white;
 }
 
@@ -103,8 +103,13 @@ button{
     margin-left: 53px;
     width: 35%;
     font-size: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
+    height: 300px;
 
+}
+
+#catchatt{
+    margin-top: 350px;
 }
 
 .fact-text{
@@ -115,13 +120,11 @@ button{
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 8px;
     padding: 10px;
-    margin-bottom: 20px;
+    min-height: 50px;
+    display: inline-block;
+    position: absolute;
+    width: 40%;
 }
-
-#catchat{
-    margin-top: 230px;
-}
-
 
 .cat-image{
     margin-right: 500px;
@@ -165,7 +168,7 @@ font-size: 20px;
     max-width: 300px;
     margin: auto;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 170px;
 }
 
 #catChatBox {
@@ -268,7 +271,7 @@ input{
 .contact-form button {
     font-size: 18px;
     border: none;
-    background-color: #ab7f68;
+    background-color: #4e73a3a6;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -281,5 +284,5 @@ input{
 }
 
 #contacts{
-
+margin-top: 25px;
 }
