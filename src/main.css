@@ -1,10 +1,10 @@
 body{
     display: flex;
     flex-direction: column;
-    min-height: 365vh;
+    height: 100%;
     margin: 0;
     padding: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://illustrators.ru/uploads/illustration/image/1288326/%D0%91%D0%B5%D0%B7%D1%8B%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B9-3__%D0%92%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD_.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/fon.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -89,6 +89,7 @@ footer {
     position: relative;
     bottom: 0;
     box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
 }
 
 button{
@@ -133,7 +134,7 @@ button{
 
 #catImage {
     position: absolute;
-    max-width: 400px;
+    max-width: 500px;
     max-height: 400px;
     height: auto;
     border-radius: 10px;
@@ -232,8 +233,10 @@ input{
     background: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
     width: 50%;
-    margin: auto;
+    margin-top: 170px;
     font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contacts h2 {
@@ -283,6 +286,6 @@ input{
     background-color: #8c6654;
 }
 
-#contacts{
+#contacts_nav{
 margin-top: 25px;
 }

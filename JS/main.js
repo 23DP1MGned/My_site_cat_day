@@ -36,7 +36,19 @@ document.addEventListener("DOMContentLoaded", function() {
         "Pajautā vēlāk, es guļu.",
         "Hmm... es par to padomāšu.",
         "Ej paspēlēties ar peli, un atgriezies vēlāk.",
-        "Atbilde ir slēpta aiz dīvāna."
+        "Atbilde ir slēpta aiz dīvāna.",
+        "Es šobrīd skatos pa logu, negribu domāt.",
+        "Varbūt. Varbūt nē. Kurš to lai zina?",
+        "Apēd kaut ko garšīgu un pajautā vēlreiz.",
+        "Nezinu, bet kāpēc tu pats to nezini?",
+        "Ak, cilvēki... vienmēr jautājumi!",
+        "Mans iekšējais kaķis saka: jā. Bet varbūt arī nē.",
+        "Pajautā man rīt, šodien es neesmu noskaņots.",
+        "Tu tiešām domā, ka es zinu?",
+        "Miega laiks! Viss pārējais var pagaidīt.",
+        "Es zinu atbildi, bet neteikšu!",
+        "Varbūt tev vajag vairāk kaķu savā dzīvē?",
+        "Mans bļodiņā nav ēdiena, tāpēc nevaru domāt!"
     ];
 
     askButton.addEventListener("click", function() {
